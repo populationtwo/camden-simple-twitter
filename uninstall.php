@@ -1,15 +1,16 @@
 <?php
+
 /**
  * Fired when the plugin is uninstalled.
  *
- * @package   Camden_Simple_Twitter
- * @author    Population2 <populationtwo@gmail.com>
- * @license   GPL-2.0+
- * @link      http://wordpress.org/plugins
- * @copyright 2014 Population2
+ *
+ * @link       https://github.com/populationtwo/camden-simple-twitter
+ * @since      1.0.0
+ *
+ * @package    Camden_Simple_Twitter
  */
 
-// If uninstall not called from WordPress, then exit
+// If uninstall not called from WordPress, then exit.
 if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 	exit;
 }

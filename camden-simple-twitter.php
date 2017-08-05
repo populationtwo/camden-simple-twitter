@@ -16,7 +16,7 @@
  * Plugin Name:       Camden Simple Twitter
  * Plugin URI:        https://github.com/populationtwo/camden-simple-twitter/
  * Description:       A simple Twitter plugin built for Camden Theme.
- * Version:           1.0.0
+ * Version:           1.1.0
  * Author:            Population2
  * Author URI:        http://population-2.com
  * License:           GPL-2.0+

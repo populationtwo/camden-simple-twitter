@@ -69,7 +69,7 @@ class Camden_Simple_Twitter {
 	public function __construct() {
 
 		$this->plugin_name = 'camden-simple-twitter';
-		$this->version = '1.0.0';
+		$this->version = '1.1.0';
 
 		$this->load_dependencies();
 		$this->set_locale();
@@ -145,9 +145,6 @@ class Camden_Simple_Twitter {
 	private function define_public_hooks() {
 
 		$plugin_public = new Camden_Simple_Twitter_Public( $this->get_plugin_name(), $this->get_version() );
-
-		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
-		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
 
 		$this->loader->add_action( 'init', $plugin_public, 'load_twitter_helper' );
 
